@@ -1,0 +1,214 @@
+* {
+    font-family: 'montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 44px 0 144px 76px;
+}
+
+.link-header {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #989D9C;
+    cursor: pointer;
+    margin-right: 23px;
+}
+
+.botao-1 {
+    background: #665AE1;
+    border-radius: 20.5px;
+    width: 130px;
+    height: 41px;
+    border: none;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.logo-principal {
+    width: 568px;
+    height: 500px;
+    margin-left: 125px;
+    display: inline-block;
+}
+
+.contener {
+    display: inline-block;
+    margin-left: 86px;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 122px;
+    color: #515151;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 71px;
+    color: #515151;
+}
+
+p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29.26px;
+    color: #848484;
+    width: 515px;
+    margin-top: 32px;
+    margin-bottom: 65px;
+}
+
+.botao-2 {
+    background: #ADFF00;
+    border-radius: 30px;
+    width: 239px;
+    height: 64px;
+    border: none;
+    cursor: pointer;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0, 25));
+    font-size: 28px;
+    line-height: 34px;
+    color: #000000;
+}
+
+
+@media screen and (max-width:800px) {
+
+    header {
+        display: none;
+    }
+
+    .contener {
+        display: block;
+    }
+
+    h1 {
+        width: 263px;
+        height: 52px;
+        font-size: 50px;
+        line-height: 60.95px;
+    }
+
+    h2 {
+        width: 232px;
+        height: 32px;
+        font-size: 30px;
+        line-height: 36.57px;
+    }
+
+    p {
+        display: none;
+    }
+
+    .logo-principal {
+
+        display: block;
+        width: 354px;
+        height: 317px;
+
+
+    }
+
+    .botao-2 {
+        margin: 20px -19px;
+        display: block;
+
+    }
+
+
+
+
+
+
+
+
+}
+
+@media screen and (max-width:450px) {
+    h header {
+        display: none;
+    }
+
+    .contener {
+        display: block;
+
+    }
+
+    h1 {
+        width: 263px;
+        height: 52px;
+        font-size: 50px;
+        line-height: 60.95px;
+    }
+
+    h2 {
+        width: 232px;
+        height: 32px;
+        font-size: 30px;
+        line-height: 36.57px;
+    }
+
+    p {
+        display: none;
+    }
+
+    .logo-principal {
+        width: 354px;
+        height: 317px;
+        margin-top: 50%;
+        margin-left: 7%;
+    }
+
+
+
+}
+
+@media screen and (max-width:414px) {
+
+    .logo-principal {
+        margin: 170px 27px;
+    }
+
+    h1 {
+        margin: -118px -8px
+    }
+
+    h2 {
+        margin: 127px -8px;
+    }
+
+    .botao-2 {
+        margin: -94px -21px;
+    }
+
+}
+
+@media screen and (max-width:375px) {
+    .logo-principal {
+        margin: 161px 29px;
+        width: 346px;
+        height: 308px;
+    }
+
+    h1 {
+        margin: -154px 3px;
+    }
+
+    h2 {
+        margin: 156px -2px;
+    }
+
+    .botao-2 {
+        margin: -128px -11px;
+    }
+
+}
